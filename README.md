@@ -77,7 +77,8 @@ if ack:
     print(ack)
  
 c.close()
-
+```
+```
 SERVER:
 
 import socket 
@@ -87,11 +88,14 @@ print(s.getsockname())
 print(s.recv(1024).decode()) 
 s.send("acknowledgement recived from the server".encode())
 ```
+``
 ## Output:
 CLIENT:
+
 ![image](https://github.com/user-attachments/assets/5d5a6729-c9e3-40bf-8704-d7a67dc3fc6f)
 
 SERVER:
+
 ![image](https://github.com/user-attachments/assets/00ea2e7b-6896-4c66-be43-a9ea24fcd00a)
 
 
